@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 
 const ACCESS_SECRET = "d9T10tDvCiDKlVgx42q7mcqR5TXdvmyW";
 const REFRESH_SECRET = "ZoD09WPHCEN1vfzkRtC31upDnwax4cim";
-const ACCESS_EXPIRATION = "2m"; // 2 minutes
+const ACCESS_EXPIRATION = "15m"; // 15 minutes
 const REFRESH_EXPIRATION = "7d"; // 7 days
 
 const refreshTokenDB = new Set();
